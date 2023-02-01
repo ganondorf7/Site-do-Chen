@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible
+    " content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parlamento Jovem ELCSVP</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/340f3cbf55.js" crossorigin="anonymous"></script>
+    <link rel="script" href="script.js">
+</head>
+
+<body>
+    <nav id="navbar">
+        <a id="st" href="#"><i class="fa-solid fa-bars"><span class="menu"></span></i></a>
+        <ul id="list">
+            <li id="stt" class="nav-section"><a href="index.html">MENU</a></div>
+            </li>
+            <li id="nd" class="nav-section"><a href="medidas.html">AS NOSSAS MEDIDAS</a></div>
+            </li>
+            <li id="nnd" class="nav-section"><a href="Por que votar em nos.html">POR QUE VOTAR EM NOS</a></div>
+            </li>
+            <li id="th" class="nav-section"><a href="sobrenos.html">SOBRE NOS</a></div>
+            </li>
+            <li id="fth" class="nav-section"><a href="contactos.html">CONTACTOS</a></div>
+            </li>
+
+        </ul>
+    </nav>
+    <main>
+    <h1>sobre nos</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut perferendis explicabo nisi. Sunt beatae at, aliquam minima nam, consectetur dolorem, sapiente dolorum error eos quasi cumque laborum ex eligendi. Voluptatem natus expedita dignissimos, deleniti ullam fugiat maiores quae, unde minus mollitia vel ducimus culpa est ab hic consectetur! Minima officiis voluptatibus possimus blanditiis beatae enim id quos ratione dicta! Qui vero laudantium modi aliquid consectetur odio sunt voluptatum eaque ipsa, fuga ex assumenda velit aspernatur a cum. Doloribus, repudiandae excepturi aperiam maxime dicta reiciendis perspiciatis accusantium unde eius consectetur ut? Ex, aperiam totam. Quos expedita iste blanditiis nihil deserunt quis.</p>
+    </main>
+
+    <footer>
+        <ul>
+            <li class="ftr-li">©2023.</li>
+            <li class="ftr-li">Tomas Rosado Hernandez.</li>
+            <li class="ftr-li">Parlamento Jovem 2023</li>
+        </ul>
+    </footer>
+
+    <script>
+        function menunnavbar() {
+                if (document.getElementById('list').style.display == 'block') {
+                    document.getElementById('list').style.display = 'none';
+                }
+                else {
+                    document.getElementById('list').style.display = 'block'
+                }
+            }
+            document.getElementById('st').addEventListener('click', menunnavbar)
+
+            function medidaschange() {
+                if (document.getElementById('medida1').style.display == 'block') {
+                    document.getElementById('medida1').style.display = 'none'
+                }
+                else {
+                    document.getElementById('medida1').style.display = 'block'
+                    document.getElementById('medida2').style.display = 'none'
+                    document.getElementById('medida3').style.display = 'none'
+                }
+            } document.getElementById('med1').addEventListener('click', medidaschange)
+
+            function medidaschange2() {
+                if (document.getElementById('medida2').style.display == 'block') {
+                    document.getElementById('medida2').style.display = 'none'
+                }
+                else {
+                    document.getElementById('medida2').style.display = 'block'
+                    document.getElementById('medida1').style.display = 'none'
+                    document.getElementById('medida3').style.display = 'none'
+                }
+            } document.getElementById('med2').addEventListener('click', medidaschange2)
+
+            function medidaschange3() {
+                if (document.getElementById('medida3').style.display == 'block') {
+                    document.getElementById('medida3').style.display = 'none'
+                }
+                else {
+                    document.getElementById('medida3').style.display = 'block'
+                    document.getElementById('medida1').style.display = 'none'
+                    document.getElementById('medida2').style.display = 'none'
+                }
+            } document.getElementById('med3').addEventListener('click', medidaschange3)
+
+    </script>
+</body>
+
+</html>
