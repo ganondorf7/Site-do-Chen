@@ -1,164 +1,164 @@
 body {
-  background-color: #567189;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0%;
-  overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0%;
+    overflow: hidden;
+    background-color: #567189;
 }
 
 .sect1 {
-  margin: 5% auto;
+    margin: 5% auto;
 }
 
 .btn-txt {
-  font-size: clamp(0.5vw, 3vw, 1rem);
+    font-size: clamp(0.5vw, 3vw, 1rem);
 }
 
 .myButton {
-  min-width: 30vw;
-  max-width: 30%;
-  background-color: #cfb997;
-  border-radius: 28px;
-  margin: 0 auto;
-  border: 5px solid #00425a;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
-  padding: 2rem;
-  font-size: 1em;
-  text-decoration: none;
+    max-width: 30%;
+    background-color: #cfb997;
+    border-radius: 28px;
+    margin: 0 auto;
+    border: 5px solid #00425a;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    padding: 2rem;
+    font-size: 1em;
+    text-decoration: none;
+    min-width: 30vw;
 }
 
 .myButton:hover {
-  transition: box-shadow 0.4ss ease-in-out;
-  box-shadow: -7px 7px 0px 0px #eee3cb;
+    box-shadow: -7px 7px 0px 0px #eee3cb;
+    transition: box-shadow 0.4ss ease-in-out;
 }
 
 .myButton:active {
-  position: relative;
-  top: 1px;
+    top: 1px;
+    position: relative;
 }
 
 .medidas {
-  width: 100%;
-  display: flex;
+    display: flex;
+    width: 100%;
 }
 
 .medida {
-  text-align: center;
-  border-radius: 10%;
-  height: 5%;
-  margin: 5% 0;
-  background-color: #cfb997;
-  display: block;
+    border-radius: 10%;
+    height: 5%;
+    margin: 5% 0;
+    background-color: #cfb997;
+    display: block;
+    text-align: center;
 }
 
 h1 {
-  text-align: center;
-  font-size: 2rem;
+    font-size: 2rem;
+    text-align: center;
 }
 
 #list {
-  display: none;
+    display: none;
 }
 
 i {
-  font-size: 2rem;
-  margin: 1% 0 0 1%;
+    margin: 1% 0 0 1%;
+    font-size: 2rem;
 }
 
 #logo {
-  size: 5rem;
+    size: 5rem;
 }
 
 #st {
-  width: 5rem;
+    width: 5rem;
 }
 
 ul {
-  width: 100vw;
-  display: none;
-  padding: 0;
-  display: flex;
-  list-style: none;
+    display: none;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    width: 100vw;
 }
 
 li {
-  text-align: center;
+    text-align: center;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 #medida1 {
-  display: none;
+    display: none;
 }
 #medida2 {
-  display: none;
+    display: none;
 }
 
 #medida3 {
-  display: none;
+    display: none;
 }
 p {
-  font-size: 1.3em;
-  margin: 0 auto;
-  width: 70%;
-  background-color: #cfb997;
-  padding: 5%;
-  border-radius: 20px;
+    margin: 0 auto;
+    width: 70%;
+    background-color: #cfb997;
+    padding: 5%;
+    border-radius: 20px;
+    font-size: 1.3em;
 }
 
 .secM #medida3 p {
-  background-color: #d7c0ae;
+    background-color: #d7c0ae;
 }
 
 .secM #medida2 p {
-  background-color: #967e76;
+    background-color: #967e76;
 }
 
 * {
-  margin: 0%;
-  box-sizing: border-box;
-  color: #fff;
-  padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    color: #fff;
+    padding: 0;
 }
 
 .nav-section {
-  margin: 0;
-  text-align: center;
-  padding: 0.5rem;
-  border-left: solid;
-  border-right: solid;
-  border-left-color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+    border-left: solid;
+    border-right: solid;
+    border-left-color: #fff;
+    margin: 0;
 }
 
 #med2 {
-  background-color: #967e76;
+    background-color: #967e76;
 }
 
 #med3 {
-  background-color: #d7c0ae;
+    background-color: #d7c0ae;
 }
 
 .secM {
-  margin: 10% 0 0 0;
+    margin: 10% 0 0 0;
 }
 
 footer {
-  background-color: black;
-  width: 100%;
-  bottom: 0;
-  position: absolute;
+    background-color: black;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
 }
 
 footer ul {
-  padding: 1rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
 }
