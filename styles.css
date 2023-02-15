@@ -162,3 +162,25 @@ footer ul {
     gap: 1rem;
     padding: 1rem;
 }
+
+.pj_img_div{
+    width: 50%;
+}
+.pj_img{
+    border-radius: 15px;
+    max-width: 100%;
+}
+h3{
+    width: 50%;
+}
+.sec_pj{
+        display: flex;
+        width: 100vw;
+        height: 70%;
+}
+
+.pj_intro{
+    display: inline;
+    position:relative;
+    display: flexbox;
+}
