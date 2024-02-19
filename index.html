@@ -37,18 +37,8 @@
             </li>
         </ul>
     </nav>
-
-    <main>
-
-        <section class="sect1">
-
-            <H1>CONTACTOS</H1>
-            <h1>PARLAMENTO JOVEM ELCSVP</h1>
-
-        </section>
-
     </main>
-
+    
     <footer>
         <ul>
             <li class="ftr-li">©2023.</li>
@@ -56,75 +46,47 @@
             <li class="ftr-li">Parlamento Jovem 2023</li>
         </ul>
     </footer>
-
     <script>
         function menunnavbar() {
-            if (document.getElementById('list').style.display ==
-                'block') {
-                document.getElementById('list').style.display =
-                    'none';
+                if (document.getElementById('list').style.display == 'block') {
+                    document.getElementById('list').style.display = 'none';
+                }
+                else {
+                    document.getElementById('list').style.display = 'block'
+                }
             }
-            else {
-                document.getElementById('list').style.display =
-                    'block'
-            }
-        }
-        document.getElementById('st').addEventListener('click',
-            menunnavbar)
-
-        function medidaschange() {
-            if (document.getElementById('medida1').style.display ==
-                'block') {
-                document.getElementById('medida1').style.display =
-                    'none'
-            }
-            else {
-                document.getElementById('medida1').style.display =
-                    'block'
-                document.getElementById('medida2').style.display =
-                    'none'
-                document.getElementById('medida3').style.display =
-                    'none'
-            }
-        } document.getElementById('med1').addEventListener('click',
-            medidaschange)
-
-        function medidaschange2() {
-            if (document.getElementById('medida2').style.display ==
-                'block') {
-                document.getElementById('medida2').style.display =
-                    'none'
-            }
-            else {
-                document.getElementById('medida2').style.display =
-                    'block'
-                document.getElementById('medida1').style.display =
-                    'none'
-                document.getElementById('medida3').style.display =
-                    'none'
-            }
-        } document.getElementById('med2').addEventListener('click',
-            medidaschange2)
-
-        function medidaschange3() {
-            if (document.getElementById('medida3').style.display ==
-                'block') {
-                document.getElementById('medida3').style.display =
-                    'none'
-            }
-            else {
-                document.getElementById('medida3').style.display =
-                    'block'
-                document.getElementById('medida1').style.display =
-                    'none'
-                document.getElementById('medida2').style.display =
-                    'none'
-            }
-        } document.getElementById('med3').addEventListener('click',
-            medidaschange3)
-
-        
+            document.getElementById('st').addEventListener('click', menunnavbar)
+            function medidaschange() {
+                if (document.getElementById('medida1').style.display == 'block') {
+                    document.getElementById('medida1').style.display = 'none'
+                }
+                else {
+                    document.getElementById('medida1').style.display = 'block'
+                    document.getElementById('medida2').style.display = 'none'
+                    document.getElementById('medida3').style.display = 'none'
+                }
+            } document.getElementById('med1').addEventListener('click', medidaschange)
+            function medidaschange2() {
+                if (document.getElementById('medida2').style.display == 'block') {
+                    document.getElementById('medida2').style.display = 'none'
+                }
+                else {
+                    document.getElementById('medida2').style.display = 'block'
+                    document.getElementById('medida1').style.display = 'none'
+                    document.getElementById('medida3').style.display = 'none'
+                }
+            } document.getElementById('med2').addEventListener('click', medidaschange2)
+            function medidaschange3() {
+                if (document.getElementById('medida3').style.display == 'block') {
+                    document.getElementById('medida3').style.display = 'none'
+                }
+                else {
+                    document.getElementById('medida3').style.display = 'block'
+                    document.getElementById('medida1').style.display = 'none'
+                    document.getElementById('medida2').style.display = 'none'
+                }
+            } document.getElementById('med3').addEventListener('click', medidaschange3)
     </script>
 </body>
-
 </html>
+            
